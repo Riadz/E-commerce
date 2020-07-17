@@ -6,6 +6,11 @@ there is also an admin panel where the admin can manage products and orders (i n
 ## Live Demo
 
 You can check the [live demo here](http://rh-works.rf.gd/E-commerce/)
+if you want to check the admin panel login with this
+*user: admin*
+*password: admin*
+hover your mouse over "My Account" in the header navigation then right under it click "Admin Dashboard"
+(please don't misuse the admin privileges)
 
 ## Features
 
