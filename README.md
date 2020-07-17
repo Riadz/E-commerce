@@ -1,7 +1,6 @@
 # RAMZ E-commerce website
 
-This is an e-commerce website i built from scratch using the LAMP stack (linux, apache, MySql, php) for an university project
-users can create an account and order products,
+This is an e-commerce website i built from scratch using the LAMP stack (linux, apache, MySql, php) for an university project, users can create an account and order products,
 there is also an admin panel where the admin can manage products and orders (i never got to finish it though)
 
 ## Live Demo
