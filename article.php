@@ -1,4 +1,4 @@
-<?php
+s<?php
 require_once  'php/autoload.php';
 session_start();
 
@@ -128,7 +128,7 @@ if (isset($_GET['article_id']) && $Articles->articleExists($_GET['article_id']))
 					</div>
 
 					<div class="buy-field" id="article-rating">
-						<span class="label">Avis:</span>
+						<span class="label">Reviews:</span>
 						<div class="article-rating-container">
 							<span class="article-back-stars">☆☆☆☆☆</span>
 							<span class="article-front-stars" style="width:<?= $article['rating_percentage'] ?>%">★★★★★</span>
