@@ -32,3 +32,7 @@ copy the files to your www folder
 edit the database credentials in db_config.php in the config folder  
 
 thats it now its ready.
+
+## Screenshot
+![2020-07-17_194233](https://user-images.githubusercontent.com/46753769/87829339-cb41ba80-c876-11ea-8bff-f857b7f1db66.jpg)
+
