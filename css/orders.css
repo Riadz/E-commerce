@@ -1,0 +1,90 @@
+#order-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#order-table caption {
+  margin-bottom: 0.8rem;
+}
+#order-table h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+#order-table td,
+#order-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#order-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--color-2);
+  /* border-radius: 12px 12px 0 0; */
+  color: white;
+}
+
+.display-link {
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+
+  background-color: var(--color-3);
+  color: #fff;
+  width: 100%;
+}
+.display-link:hover {
+  background-color: var(--color-4);
+}
+
+.hidden-cart-table {
+  display: none;
+  width: 100%;
+
+  padding: 0 8px 12px;
+}
+.hidden-cart-table th {
+  background-color: var(--color-3) !important;
+}
+.hidden-cart-table img {
+  object-fit: scale-down;
+  height: 60px;
+  width: 60px;
+}
+.hidden-cart-table caption {
+  margin-bottom: 0 !important;
+  padding: 8px;
+  text-align: left;
+
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.hidden-cart-table a {
+  color: var(--color-3);
+}
+.hidden-cart-table a:hover {
+  color: var(--color-4);
+}
+
+.order-status {
+  font-weight: 700;
+}
+.os-shipped {
+  color: green;
+}
+.os-shipping {
+  color: #3fc73f;
+}
+.os-canceled {
+  color: red;
+}
+.os-undefined {
+  color: gray;
+}
+.os-pending {
+  color: #d6bc45;
+}

@@ -1,0 +1,3 @@
+# blocking direct access to this folder
+# files can only be used by php with require/include
+Deny from all

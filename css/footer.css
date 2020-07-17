@@ -1,0 +1,100 @@
+footer {
+  width: 100%;
+
+  color: #fff;
+  background-color: #1c2c2e;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.3);
+}
+footer a:hover {
+  color: var(--color-2);
+}
+
+.footer-content {
+  max-width: 1175px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 15px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 0.8rem;
+}
+.footer-logo h2 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.footer-sm {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 15px;
+}
+.footer-sm a {
+  height: 50px;
+  width: 50px;
+
+  padding: 5px;
+
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+.footer-sm a:hover {
+  background-color: #ffffff62;
+}
+.footer-sm img {
+  height: 40px;
+  width: 40px;
+}
+
+.footer-links h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+}
+.footer-links li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  line-height: 100%;
+}
+
+.footer-news-lester h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+}
+.footer-news-lester input,
+.footer-news-lester button {
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 15px;
+  margin: 0 0 15px;
+  border-radius: 2px;
+}
+
+.footer-bottom {
+  padding: 20px;
+
+  text-align: center;
+  font-size: 1.2rem;
+
+  background-color: #141f20;
+}
+
+.footer-bottom a {
+  color: var(--color-3);
+}

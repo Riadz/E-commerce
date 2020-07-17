@@ -1,0 +1,288 @@
+#top-h {
+  width: 100%;
+  text-align: center;
+
+  border-bottom: 1px solid gray;
+
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  z-index: 2;
+  position: fixed;
+
+  align-items: center;
+  justify-content: center;
+
+  left: 0;
+  top: 0;
+
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+  width: 530px;
+
+  border-radius: 3px;
+  background-color: var(--color-1);
+  border: 1px solid var(--color-2);
+  box-shadow: 3px 3px 18px 0 #22a7f044;
+}
+.modal-container h2 {
+  width: 100%;
+  text-align: center;
+
+  border-bottom: 1px solid gray;
+
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.modal-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-container input {
+  border-bottom: 2px solid var(--color-2);
+
+  width: 120px;
+  font-size: 2rem;
+  text-align: center;
+}
+/* arrows always visible */
+.modal-container input::-webkit-inner-spin-button,
+.modal-container input::-webkit-outer-spin-button {
+  opacity: 1;
+}
+.modal-img {
+  height: 160px;
+  width: 160px;
+  object-fit: scale-down;
+
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.modal-close-btn {
+  line-height: 0;
+  position: absolute;
+  top: 12px;
+  right: 4px;
+
+  font-size: large;
+  font-weight: 900;
+}
+.modal-close-btn:hover {
+  color: tomato;
+}
+
+/* Forms */
+/*/* stocker  */
+.form-1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+.form-1 h1 {
+  width: 100%;
+  text-align: center;
+
+  border-bottom: 1px solid gray;
+
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.form-1 table,
+.form-1 th {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding: 2px;
+}
+.form-1 table img {
+  object-fit: contain;
+  widows: 60px;
+  height: 60px;
+}
+.form-1 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-1 form input {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 800;
+
+  border: 1px solid gray;
+
+  padding: 10px;
+
+  width: 120px;
+  height: 50px;
+}
+/* orders */
+.form-1-info h3 {
+  float: left;
+}
+
+/*/* ajouter article*/
+.form-2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 780px;
+}
+.form-2-section {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 3px;
+}
+.form-2-section input,
+.form-2-section select {
+  padding: 7px;
+  margin: 0 5px;
+
+  min-height: 31px;
+  width: 179px;
+  max-width: 179px;
+
+  justify-self: baseline;
+
+  border: 1px solid gray;
+}
+.form-2-splitter {
+  margin: 20px 0;
+  width: 100%;
+
+  border-bottom: 1px solid gray;
+}
+.form-2 textarea {
+  padding: 10px;
+  width: 100%;
+  height: 300px;
+}
+.form-2 span {
+  white-space: nowrap;
+}
+/*/ update article*/
+.form-2-img-change {
+  align-items: center;
+}
+.form-2-img-change img {
+  object-fit: contain;
+  height: 60px;
+}
+.delete-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  padding: 0 !important;
+  margin-left: 5px !important;
+
+  -webkit-appearance: initial;
+  border: 1px solid gray !important;
+  background-color: silver !important;
+
+}
+.delete-checkbox::after {
+  content: 'X';
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.delete-checkbox:hover {
+  background: gray !important;
+}
+.delete-checkbox:checked {
+  background: #ee2b0f !important;
+}
+
+/* edit article form */
+.edit-form .form-header {
+  margin-bottom: 2rem;
+}
+.edit-form {
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+}
+.edit-form form {
+  padding: 0;
+}
+.edit-form form #sections-container {
+  width: 100%;
+  justify-content: space-between;
+}
+.edit-form form .section {
+  align-items: center;
+  width: 45%;
+}
+.edit-form form .splitter {
+  margin: 0 5%;
+}
+.edit-form form input:disabled {
+  background-color: #9292923d;
+}
+.edit-form form input::-webkit-inner-spin-button,
+.edit-form form input::-webkit-outer-spin-button {
+  opacity: 1;
+}
+.edit-form form input,
+.edit-form form select,
+.edit-form form .section > span,
+.edit-form form .check-input {
+  width: 75%;
+}
+.edit-form form .check-input {
+  display: flex;
+}
+.edit-form form .check-input-grow {
+  flex-grow: 1;
+}
+.edit-form form input[type='checkbox'] {
+  width: 31px;
+  height: 31px;
+  margin: 0.3rem 0.5rem 0 0;
+}
+.edit-form form button {
+  width: 50%;
+  margin-top: 2rem;
+}
+
+#add-img-input-btn {
+  padding: 0;
+  margin-top: 0.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#add-img-input-btn img {
+  margin: 0;
+}
+
+.edit-form form .tox-tinymce {
+  width: 100%;
+  height: 200px;
+}

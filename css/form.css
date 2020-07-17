@@ -1,0 +1,150 @@
+body {
+  object-fit: contain;
+}
+textarea {
+  /* will prevent resizing horizontally */
+  resize: vertical;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 25px;
+
+  background-color: var(--color-1);
+  box-shadow: 10px 10px 20px #3a3a3a;
+}
+
+.form-header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.form-header img {
+  height: 35px;
+  width: auto;
+
+  margin-right: 4px;
+}
+.form-header span {
+  color: var(--color-2);
+  font-weight: 600;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+
+  padding: 50px;
+}
+
+.form-container form input,
+.form-container form select,
+.form-container form textarea {
+  font-size: 16px;
+
+  margin: 0 0 15px;
+  padding: 8px 0;
+
+  background-color: transparent;
+  border-bottom: 2px solid var(--color-2);
+}
+.form-container form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  padding: 12px;
+  margin: 20% 0 0;
+
+  color: #fff;
+  background-color: var(--color-2);
+
+  font-weight: 700;
+  font-size: 17px;
+
+  border: var(--color-2) 1px solid;
+  border-radius: 4px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  transition: color 0.15s ease-in, background-color 0.15s ease-in;
+}
+.form-container form button img {
+  margin-right: 10px;
+
+  height: 26px;
+  width: auto;
+
+  filter: invert(99%) sepia(8%) saturate(0%) hue-rotate(300deg) brightness(111%)
+    contrast(100%);
+}
+.form-container form button:hover {
+  background-color: var(--color-3);
+}
+.form-container form button:active {
+  background-color: var(--color-4);
+}
+
+#switch_span {
+  text-align: center;
+}
+#switch_span a {
+  color: var(--color-2);
+}
+#switch_span a:hover {
+  color: var(--color-3);
+}
+
+/* Login */
+.login-form-container {
+  margin: 6vw auto;
+}
+
+/* Sign up */
+.signup-form-container {
+  margin: 3vw auto;
+}
+.signup-form-container form button {
+  margin: 10% 0 0 !important;
+}
+#sections-container {
+  display: flex;
+  flex-direction: row;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+}
+.section h3 {
+  margin: 15px 0;
+  color: var(--color-3);
+}
+.splitter {
+  border: 1px solid gray;
+  margin: 0 10px;
+}
+
+/* Contact us */
+.contact-us-form-container {
+  max-width: 825px;
+  margin: 3vw auto;
+}
+.contact-us-form-container form {
+  align-items: flex-start !important;
+}
+.contact-us-form-container form button {
+  margin: 5% 0 0 !important;
+}
+.contact-us-form-container textarea {
+  margin-top: 25px;
+  padding: 8px;
+  font-size: 14px;
+  outline: 2px solid var(--color-2);
+}
+#sections-container {
+  display: flex;
+}

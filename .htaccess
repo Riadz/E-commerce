@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Remove file extention
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Avoid redirect loop
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule ^ - [L]
+
+# Add trailing slash
+RewriteCond %{REQUEST_URI} !(\.|/$)
+RewriteRule (.*) http://%{HTTP_HOST}/$1/ [R=302,L]
